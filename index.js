@@ -30,7 +30,10 @@ function prependKitten(name) {
   newKittens.unshift(name);
   return newKittens;
 }
-
-=======
+function removeLastKitten(name) {
+  var newKittens = [...kittens];
+  newKittens.pop(name);
+  return newKittens;
 }
->>>>>>> 3e73dc6f2a478619711f3e1e0c99761ae280113d
+
+
