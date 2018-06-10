@@ -2,6 +2,7 @@ const app = "I don't do much."
 
 function kittens () {
   return kittens;
+<<<<<<< HEAD
 }
 function destructivelyAppendKitten(name) {
   kittens.push(name);
@@ -30,3 +31,6 @@ function prependKitten(name) {
   return newKittens;
 }
 
+=======
+}
+>>>>>>> 3e73dc6f2a478619711f3e1e0c99761ae280113d
